@@ -1,0 +1,18 @@
+.button {
+  border: 1px solid black;
+  width: 80px;
+  text-align: center;
+  padding: 6px;
+  margin: 2px 2px;
+}
+.button:hover {
+  background-color: var(--primary-color);
+}
+.button:active {
+  background-color: var(--secondary-color);
+}
+
+.count {
+  text-align: center;
+}
+

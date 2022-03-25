@@ -1,0 +1,10 @@
+<h1>Counter</h1>
+<p class="count">
+  {{ counter$ | async }}
+  {{ amount }}
+</p>
+<input [(ngModel)]="amount" (keyup.enter)="incrementAmount()" type="number" />
+<div class="button" (click)="increment()">Increment</div>
+<div class="button" (click)="decrement()">Decrement</div>
+<div class="button" (click)="reset()">Reset</div>
+HELLOOOOO
